@@ -8,9 +8,9 @@ public class Program {
 
 	BufferedReader br;
 	//"D:\Workplace\Eclipse Workspace\ERTags\TestData.csv"
-	public static String inputFile = "D:\\Workplace\\Eclipse Workspace\\ERTags\\TrainingData.csv";
+	public static String inputFile = "TrainingData.csv";
 
-	public static String testData = "D:\\Workplace\\Eclipse Workspace\\ERTags\\TestData.csv";
+	public static String testData = "TestData.csv";
 
 	public String sentence, posTag, erTag; // from Input file
 

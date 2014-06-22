@@ -24,7 +24,11 @@ public class StopWords {
 
 		// Iterator over eng sentence to remove stop words
 		Iterator<String> i = engSentences.iterator();
-
+		
+		System.out.println("Lenght of English Sentence is: " + engSentences.size());
+		System.out.println("Lenght of POS Tags is: " + posTags.size());
+		System.out.println("Lenght of ER Tags is: " + erTags.size());
+		
 		int v = 0;
 		while (i.hasNext()) {
 			// must be called before you can call i.remove()

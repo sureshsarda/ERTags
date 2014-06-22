@@ -15,7 +15,7 @@ public class LoadStopWords {
 
 	public LoadStopWords() throws IOException {
 		String s;
-		FileReader fr = new FileReader("D:\\Workplace\\Eclipse Workspace\\ERTags\\stopWords.csv");
+		FileReader fr = new FileReader("stopWords.csv");
 		BufferedReader br = new BufferedReader(fr);
 
 		// Storing list of Stop Words from file in array

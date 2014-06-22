@@ -10,12 +10,6 @@ DT,NNP,NNP,NNPS,NNS,VBZ,TO,VB,DT,NN,TO,VB,DT,NN,WDT,VBZ,VBN,IN,NN,TO,DT,NN,IN,CD
 The,room,database,will,include,the,room,numbers,and,if,they,are,vacant,or,occupied.,,,,,,,,,,,,,,,,,,,,,,,,,,
 DT,NN,NN,MD,VB,DT,NN,NNS,CC,IN,PRP,VBP,JJ,CC,JJ,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,ES,,,,,AM,AM,,,,,AS,,AS,,,,,,,,,,,,,,,,,,,,,,,,,,
-The,customers,information,database,will,contain,all,the,information,of,the,customer,such,as,first,name,last,name,number,of,occupants,assigned,room,default,room,rate(may,be,changed),phone,number,,,,,,,,,,,
-DT,NNS,NN,NN,MD,VB,PDT,DT,NN,IN,DT,NN,JJ,IN,JJ,JJ,JJ,NN,NN,IN,NNP,NNP,NNP,NN,NN,NN,VB,VBN,NN,NN,,,,,,,,,,,
-,,,,,,,,,,,ES,,,AM,AM,AM,AM,AM,AM,AM,AM,AM,AM,AM,AM,,,AM,AM,,,,,,,,,,,
-Customer,Database,will,also,contain,information,as,,credit,card,number,,confirmation,number,,,expected,check,in,date,and,time,,actual,check,in,date,and,time,,expected,check,out,date,and,time,,amount,owed,by,customer.
-NNP,NNP,MD,RB,VB,NN,IN,NNP,NN,NN,NNS,NN,NNP,NNP,VBN,VB,IN,NN,CC,VB,JJ,NN,IN,NN,CC,VB,JJ,NN,IN,NN,CC,NN,NN,VBN,IN,NN,,,,,
-ES,,,,,,,,AM,AM,AM,,AM,AM,,,AM,AM,AM,AM,,AS,,AM,AM,AM,AM,,AS,,,,,,,,,,,,
 System,has,a,default,room,rate,that,is,adjustable,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 NNP,VBZ,DT,NN,NN,NN,WDT,VBZ,JJ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ES,,,,AM,AM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
