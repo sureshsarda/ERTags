@@ -15,12 +15,11 @@ public class StopWords {
 
 		// Storing eng sent,POS tags and ER tags in the form of list
 
-		List<String> engSentences = new ArrayList<String>(Arrays.asList(sent
-				.split(",")));
+		List<String> engSentences = new ArrayList<String>(Arrays.asList(sent.split(",")));
 		List<String> posTags = new ArrayList<String>(Arrays.asList(posT
-				.split(",")));
+				.split(",", -1)));
 		List<String> erTags = new ArrayList<String>(Arrays.asList(erT
-				.split(",")));
+				.split(",", -1)));
 
 		// Iterator over eng sentence to remove stop words
 		Iterator<String> i = engSentences.iterator();
