@@ -15,7 +15,7 @@ public class GetErTag {
 	Boolean reachedLeaf = true;
 
 	Node n = d1.rootNode;
-
+	
 	String[] engWords = new String[30];
 	String[] erOfWord = new String[30];
 
@@ -27,6 +27,7 @@ public class GetErTag {
 
 			// Trace the Trie till node contains pos tag
 			if (n.edges.containsKey(posTag[i])) {
+			
 
 				n = n.edges.get(posTag[i]);
 

@@ -1,6 +1,3 @@
-import java.io.BufferedReader;
-
-import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -13,7 +10,7 @@ public class StopWords {
 	public static void StopWordFilter(String sent, String posT, String erT)
 			throws IOException {
 
-		// Storing eng sent,POS tags and ER tags in the form of list
+		//Storing eng sent,POS tags and ER tags in the form of list
 
 		List<String> engSentences = new ArrayList<String>(Arrays.asList(sent.split(",")));
 		List<String> posTags = new ArrayList<String>(Arrays.asList(posT

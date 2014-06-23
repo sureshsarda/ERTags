@@ -22,6 +22,7 @@ public class DecisionTrie {
 			if (nextNode.edges.containsKey(posTag[i])) {
 				System.out.println("IN TRIE ALREADY " + posTag[i]);
 				nextNode = nextNode.edges.get(posTag[i]);
+				
 			}
 			else // tags not found in trie
 			{
